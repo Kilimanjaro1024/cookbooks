@@ -68,9 +68,9 @@ function App() {
   return (
     <div className="App">
       <h1>Cookbooks</h1>
-      <Link to="/cookbooks">
+      {/* <Link to="/cookbooks">
         <button>View Cookbooks</button>
-      </Link>
+      </Link> */}
       <Link to="/create">
         <button>add cookbook</button>
       </Link>
